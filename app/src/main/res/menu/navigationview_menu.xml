@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/projectMy"
+            android:checkable="true"
+            android:title="我的项目"/>
+        <item
+            android:id="@+id/projectApply"
+            android:checkable="true"
+            android:title="项目申请"/>
+        <item
+            android:id="@+id/ft1"
+            android:checkable="true"
+            android:title="second"/>
+        <item
+            android:id="@+id/ft2"
+            android:checkable="true"
+            android:title="third"/>
+    </group>
+</menu>

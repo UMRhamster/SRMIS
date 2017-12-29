@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorControlHighlight">#44eeeef5</color>
+    //
+    <color name="mcolorPrimaryDark">#2c3a4b</color>
+    <color name="mcolorAccent">#00ffff</color>
+    //
+    <color name="darkBlue">#07576E</color>
+    <color name="darkBlueMore">#27516E</color>
+    <color name="brown">#463F46</color>
+    <color name="skyBlue">#00FFFF</color>
+    //Toolbar和TabLayout背景色
+    <color name="topBarColor">#6800b3</color>
+    //自定义按钮对应颜色
+    <color name="indigo">#66de23</color>
+    <color name="pink">#dd54ee</color>
+    //背景
+    <color name="darkColorBackground">#3d4a5a</color>
+</resources>

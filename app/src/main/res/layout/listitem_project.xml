@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/projectCheckName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="项目名称"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:id="@+id/projectCheckLeader_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="项目负责人"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/projectCheckDetail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/projectCheckName_tv"
+        android:text="项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介项目简介"
+        android:textColor="@android:color/white"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+    <TextView
+        android:layout_below="@id/projectCheckDetail_tv"
+        android:id="@+id/projectCheckTime_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        android:text="申请时间：2017/12/28"/>
+
+</RelativeLayout>

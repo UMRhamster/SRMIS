@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--ToolBar-->
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:background="@color/topBarColor"
+            android:fitsSystemWindows="true">
+            <ImageButton
+                android:id="@+id/toolbarMenu_ib"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/toolbar_menu"
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+        </android.support.v7.widget.Toolbar>
+        <!--选项卡-->
+        <android.support.design.widget.TabLayout
+            android:id="@+id/top_tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/topBarColor"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextColor="@android:color/darker_gray"
+            android:fitsSystemWindows="true">
+            <!--选项-->
+            <android.support.design.widget.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/top_tl_item1"/>
+            <android.support.design.widget.TabItem
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/top_tl_item2"/>
+
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

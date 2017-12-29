@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="contentInsetStart">0dp</item><!-- 设置该属性解决空白部分-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/mcolorPrimaryDark</item>
+        <item name="colorAccent">@color/mcolorAccent</item>
+        <item name="colorControlHighlight">@color/colorControlHighlight</item>
+    </style>
+
+    <style name="MyStyle">
+        <item name="android:textColor">#00ffff</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!--折叠工具栏展开文字状态-->
+    <style name="ExpandedTextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!--折叠工具栏收缩文字状态-->
+    <style name="CollapsedTextAppearance">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    //自定义按钮
+    <style name="CustomButton">
+        <!-- 点击高亮时背景颜色 -->
+        <item name="colorControlHighlight">@color/indigo</item>
+        <!-- 按钮正常背景颜色 -->
+        <item name="colorButtonNormal">@color/pink</item>
+    </style>
+</resources>

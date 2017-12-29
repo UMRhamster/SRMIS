@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">科研管理信息系统</string>
+    <string name="Account">Account</string>
+    <string name="Password">Password</string>
+    <string name="LOGIN">Login</string>
+    <string name="忘记密码">忘记密码？</string>
+    <string name="ForgetPassword">Forget Password?</string>
+    <string name="textComplete">Complete</string>
+    <string name="textError">Error</string>
+    <string name="textIdle">Idle</string>
+    <string name="top_tl_item1">项目</string>
+    <string name="top_tl_item2">用户</string>
+    <string name="projectApply">项目申请</string>
+    <string name="projectDetail">项目详细信息</string>
+</resources>
